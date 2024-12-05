@@ -274,11 +274,12 @@ export default function Donate() {
                                 <div className="donate-content">
                                     <div className="section-header">
                                         <p>Donate Now</p>
-                                        <h2>Let's donate to needy people for better lives</h2>
+                                        <h2>Let's donate for holy place</h2>
                                     </div>
                                     <div className="donate-text">
                                         <p>
-                                            Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non. Aliquam metus tortor, auctor id gravida, viverra quis sem. Curabitur non nisl nec nisi maximus. Aenean convallis porttitor. Aliquam interdum at lacus non blandit.
+                                            Lorem ipsum dolor si
+                                            t amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non. Aliquam metus tortor, auctor id gravida, viverra quis sem. Curabitur non nisl nec nisi maximus. Aenean convallis porttitor. Aliquam interdum at lacus non blandit.
                                         </p>
                                     </div>
                                 </div>

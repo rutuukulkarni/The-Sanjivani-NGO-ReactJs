@@ -9,7 +9,7 @@
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .4)), url(../assets/page-header.jpg);
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;   
     background-size: cover;
 }
 

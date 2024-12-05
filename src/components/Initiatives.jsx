@@ -2,11 +2,11 @@ import React, { useState } from 'react'
 import Carousel from "react-spring-3d-carousel";
 import { v4 as uuidv4 } from "uuid";
 import { config } from "react-spring";
-import sudhaar from '../assets/Initiatives/Sudhaar.png';
-import gyaan from '../assets/Initiatives/Gyaan.png';
-import nirmaan from '../assets/Initiatives/Nirmaan.png';
-import gogreen from '../assets/Initiatives/Go-Green.png';
-import muskaan from '../assets/Initiatives/Muskaan.png';
+import sudhaar from '../assets/Initiatives/Sudhaar.jpg';
+import gyaan from '../assets/Initiatives/Gyaan.jpg';
+import nirmaan from '../assets/Initiatives/Nirmaan.jpg';
+import gogreen from '../assets/Initiatives/Go-Green.jpg';
+import muskaan from '../assets/Initiatives/Muskaan.jpg';
 import '../css/initiatives.css';
 
 const Initiatives = () => {
@@ -93,7 +93,7 @@ const Initiatives = () => {
       <br />
       <br />
       <div className="title">
-        <h1><span>OUR</span> INITIATIVES</h1>
+        <h1><span>OUR</span> DEVASTHAN</h1>
       </div>
       <div className="initiative-cards">
         <Carousel
