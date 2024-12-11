@@ -1,0 +1,21 @@
+/* AudioPlayer.css */
+.audio-player {
+  position: fixed; /* Make sure it's fixed on the screen */
+  top: 50px; /* Position it in the top-right corner */
+  right: 10px;
+  z-index: 1000; /* Make sure the button is above other content */
+}
+
+.mute-button {
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent button background */
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 30px; /* Larger font for visibility */
+}
+
+.mute-button:hover {
+  background-color: rgba(0, 0, 0, 0.5); /* Darker background on hover */
+}

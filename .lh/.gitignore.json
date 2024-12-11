@@ -1,0 +1,18 @@
+{
+    "sourceFile": ".gitignore",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1733896269973,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1733896269973,
+            "name": "Commit-0",
+            "content": "# Node.js Dependencies\r\nnode_modules/\r\n\r\n# Build Output\r\nbuild/\r\ndist/\r\n\r\n# Logs\r\nnpm-debug.log*\r\nyarn-debug.log*\r\nyarn-error.log*\r\n\r\n# Environment Variables\r\n.env\r\n\r\n# Local History (VS Code Extension)\r\n.history/\r\n\r\n# VS Code Settings\r\n.vscode/\r\n\r\n# Operating System Files\r\n.DS_Store\r\n\r\n# Coverage Reports (if using Jest or other test tools)\r\ncoverage/\r\n\r\n# Temporary Files\r\n*.tmp\r\n*.swp\r\n\r\n# Ignore Specific Local History Configuration\r\n.lhignore\r\n"
+        }
+    ]
+}

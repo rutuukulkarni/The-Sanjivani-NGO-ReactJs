@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/css/home.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1733813226623,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1733813242549,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,8 @@\n   video {\r\n     width: 100%;\r\n     height: 100%;\r\n     object-fit: cover;\r\n-    z-index: 1;\r\n   }\r\n }\r\n .typewriter {\r\n   position: absolute;\r\n"
+                }
+            ],
+            "date": 1733813226623,
+            "name": "Commit-0",
+            "content": ".video-container {\r\n  position: relative;\r\n  margin: 0;\r\n  padding: 0;\r\n  width: 100%;\r\n  height: 700px;\r\n  overflow: hidden;\r\n  video {\r\n    width: 100%;\r\n    height: 100%;\r\n    object-fit: cover;\r\n    z-index: 1;\r\n  }\r\n}\r\n.typewriter {\r\n  position: absolute;\r\n  top: 90%; /* Center vertically */\r\n  left: 75%; /* Center horizontally */\r\n  transform: translate(-50%, -50%);\r\n  width: fit-content;\r\n  h2 {\r\n    overflow: hidden; /* Ensures the content is not revealed until the animation */\r\n    border-right: 0.1em solid orange; /* The typewriter cursor */\r\n    white-space: nowrap; /* Keeps the content on a single line */\r\n    margin: 0 auto; /* Gives that scrolling effect as the typing happens */\r\n    letter-spacing: 0.1em; /* Adjust as needed */\r\n    animation: typing 7.5s steps(40) infinite, blink-caret 0.75s infinite;\r\n    color: white;\r\n  }\r\n  @media (max-width: 767.98px) {\r\n    left: 50%;\r\n    h2 {\r\n      font-size: 18px;\r\n    }\r\n  }\r\n}\r\n\r\n/* The typing effect */\r\n@keyframes typing {\r\n  0% {\r\n    width: 0;\r\n  }\r\n  50% {\r\n    width: 100%;\r\n  }\r\n  100% {\r\n    width: 100%; /* Keep the width at 100% after typing */\r\n  }\r\n}\r\n\r\n/* The typewriter cursor effect */\r\n@keyframes blink-caret {\r\n  from,\r\n  to {\r\n    border-color: transparent;\r\n  }\r\n  50% {\r\n    border-color: orange;\r\n  }\r\n}\r\n"
+        }
+    ]
+}

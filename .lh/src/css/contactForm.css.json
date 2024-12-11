@@ -1,0 +1,54 @@
+{
+    "sourceFile": "src/css/contactForm.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 9,
+            "patches": [
+                {
+                    "date": 1733807939224,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1733807950983,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n     width: 100%;\r\n     max-width: 700px;\r\n     margin: 0 auto;\r\n     margin-top: -220px;\r\n-    pad\r\n+    padding-top: 20px;\r\n     padding: 30px;\r\n     background: #f3f6ff;\r\n     border-radius: 12px;\r\n     .sent{\r\n"
+                },
+                {
+                    "date": 1733807962908,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n     width: 100%;\r\n     max-width: 700px;\r\n     margin: 0 auto;\r\n     margin-top: -220px;\r\n-    padding-top: 20px;\r\n+    padding-top: 5px;\r\n     padding: 30px;\r\n     background: #f3f6ff;\r\n     border-radius: 12px;\r\n     .sent{\r\n"
+                },
+                {
+                    "date": 1733807990958,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,8 @@\n     width: 100%;\r\n     max-width: 700px;\r\n     margin: 0 auto;\r\n     margin-top: -220px;\r\n-    padding-top: 5px;\r\n     padding: 30px;\r\n     background: #f3f6ff;\r\n     border-radius: 12px;\r\n     .sent{\r\n"
+                },
+                {
+                    "date": 1733808009866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n     position: relative;\r\n     width: 100%;\r\n     max-width: 700px;\r\n     margin: 0 auto;\r\n-    margin-top: -220px;\r\n+    margin-top: -120px;\r\n     padding: 30px;\r\n     background: #f3f6ff;\r\n     border-radius: 12px;\r\n     .sent{\r\n"
+                },
+                {
+                    "date": 1733808024203,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,14 +41,14 @@\n     position: relative;\r\n     width: 100%;\r\n     max-width: 700px;\r\n     margin: 0 auto;\r\n-    margin-top: -120px;\r\n+    margin-top: -320px;\r\n     padding: 30px;\r\n     background: #f3f6ff;\r\n     border-radius: 12px;\r\n     .sent{\r\n-      padding-bottom: 15px;\r\n+      padding-bottom: 10px;\r\n       text-align: center;\r\n       font-size: 18px;\r\n       font-weight: 500;\r\n       i{\r\n"
+                },
+                {
+                    "date": 1733808037316,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,14 +41,14 @@\n     position: relative;\r\n     width: 100%;\r\n     max-width: 700px;\r\n     margin: 0 auto;\r\n-    margin-top: -320px;\r\n+    margin-top: -350px;\r\n     padding: 30px;\r\n     background: #f3f6ff;\r\n     border-radius: 12px;\r\n     .sent{\r\n-      padding-bottom: 10px;\r\n+      padding-bottom: 5px;\r\n       text-align: center;\r\n       font-size: 18px;\r\n       font-weight: 500;\r\n       i{\r\n"
+                },
+                {
+                    "date": 1733808184029,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,9 @@\n   }\r\n   \r\n   @media (max-width: 991.98px) {\r\n     .contact .contact-form {\r\n-        max-width: 600px;\r\n+        max-width: 500px;\r\n     }\r\n   }\r\n   \r\n   @media (max-width: 767.98px) {\r\n"
+                },
+                {
+                    "date": 1733808240821,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,9 @@\n   }\r\n   \r\n   @media (max-width: 991.98px) {\r\n     .contact .contact-form {\r\n-        max-width: 500px;\r\n+        max-width: 600px;\r\n     }\r\n   }\r\n   \r\n   @media (max-width: 767.98px) {\r\n@@ -96,9 +96,9 @@\n     border: 1px solid rgba(0, 0, 0, .5);\r\n   }\r\n   \r\n   .contact .contact-form textarea {\r\n-    height: 150px;\r\n+    height: 100px;\r\n     padding: 8px 15px;\r\n     background: none;\r\n     border-radius: 8px;\r\n     border: 1px solid rgba(0, 0, 0, .5);\r\n"
+                },
+                {
+                    "date": 1733808257876,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -96,9 +96,9 @@\n     border: 1px solid rgba(0, 0, 0, .5);\r\n   }\r\n   \r\n   .contact .contact-form textarea {\r\n-    height: 100px;\r\n+    height: 120px;\r\n     padding: 8px 15px;\r\n     background: none;\r\n     border-radius: 8px;\r\n     border: 1px solid rgba(0, 0, 0, .5);\r\n"
+                }
+            ],
+            "date": 1733807939224,
+            "name": "Commit-0",
+            "content": "/*******************************/\r\n/********* Contact CSS *********/\r\n/*******************************/\r\n.contact {\r\n    position: relative;\r\n    width: 100%;\r\n    padding: 35px 0;\r\n    padding-bottom: 70px;\r\n    background: linear-gradient(\r\n      45deg,\r\n      rgb(1, 24, 54) 11.2%,\r\n      rgba(0, 37, 84, 0.8) 100.2%\r\n    );\r\n    .container{\r\n      h3{\r\n        font-size: 24px;\r\n        color: #fdbe33;\r\n      }\r\n      h2{\r\n        font-size: 37px;\r\n        color: white;\r\n        padding-bottom: 20px;\r\n      }\r\n    }\r\n  }\r\n  \r\n  .contact .contact-img {\r\n    position: relative;\r\n    width: 100%;\r\n  }\r\n  \r\n  .contact .contact-img img {\r\n    width: 100%;\r\n    height: 440px;\r\n    object-fit: cover;\r\n    border-radius: 12px;\r\n    filter: drop-shadow(0 0 1.25rem #FDBE33);\r\n  }\r\n  \r\n  .contact .contact-form {\r\n    position: relative;\r\n    width: 100%;\r\n    max-width: 700px;\r\n    margin: 0 auto;\r\n    margin-top: -220px;\r\n    pad\r\n    padding: 30px;\r\n    background: #f3f6ff;\r\n    border-radius: 12px;\r\n    .sent{\r\n      padding-bottom: 15px;\r\n      text-align: center;\r\n      font-size: 18px;\r\n      font-weight: 500;\r\n      i{\r\n        margin-left: 10px;\r\n      }\r\n    }\r\n  }\r\n  \r\n  @media (max-width: 991.98px) {\r\n    .contact .contact-form {\r\n        max-width: 600px;\r\n    }\r\n  }\r\n  \r\n  @media (max-width: 767.98px) {\r\n    .text-danger{\r\n      font-size: 12px;\r\n    }\r\n    .contact .contact-form .btn.btn-custom {\r\n      padding: 6px;\r\n    }\r\n    .contact .container {\r\n      h3{\r\n        font-size: 21px;\r\n      }\r\n      h2{\r\n        font-size: 31px;\r\n      }\r\n    }\r\n    .contact .contact-form {\r\n        max-width: 400px;\r\n    }\r\n  }\r\n  \r\n  @media (max-width: 575.98px) {\r\n    .contact .contact-form {\r\n        max-width: 300px;\r\n    }\r\n  }\r\n  \r\n  .contact .contact-form input {\r\n    padding: 18px;\r\n    background: none;\r\n    border-radius: 8px;\r\n    border: 1px solid rgba(0, 0, 0, .5);\r\n  }\r\n  \r\n  .contact .contact-form textarea {\r\n    height: 150px;\r\n    padding: 8px 15px;\r\n    background: none;\r\n    border-radius: 8px;\r\n    border: 1px solid rgba(0, 0, 0, .5);\r\n  }\r\n  \r\n  .contact .contact-form .btn.btn-custom {\r\n    width: 100%;\r\n    font-size: 18px;\r\n    font-weight: 500;\r\n    border-radius: 12px;\r\n  }"
+        }
+    ]
+}

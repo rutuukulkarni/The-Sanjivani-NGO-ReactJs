@@ -1,0 +1,46 @@
+{
+    "sourceFile": "src/pages/gallery.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1733810568004,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1733810585966,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import Initiatives from '../components/Initiatives';\r\n import BackToTop from '../components/BackToTop';\r\n import PageHeader from \"../components/PageHeader\";\r\n \r\n-export default function Events() {\r\n+export default function Gallery() {\r\n     return (\r\n         <>\r\n             <Navbar />\r\n             <PageHeader title=\"Flagship Events\" path=\"/event\" name=\"Events\" />\r\n"
+                },
+                {
+                    "date": 1733810596596,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n export default function Gallery() {\r\n     return (\r\n         <>\r\n             <Navbar />\r\n-            <PageHeader title=\"Flagship Events\" path=\"/event\" name=\"Events\" />\r\n+            <PageHeader title=\"All Pictures\" path=\"/event\" name=\"Events\" />\r\n             <Initiatives />\r\n             <Footer />\r\n             <BackToTop />\r\n         </>\r\n"
+                },
+                {
+                    "date": 1733810606951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n export default function Gallery() {\r\n     return (\r\n         <>\r\n             <Navbar />\r\n-            <PageHeader title=\"All Pictures\" path=\"/event\" name=\"Events\" />\r\n+            <PageHeader title=\"All Pictures\" path=\"/gallery\" name=\"Gallery\" />\r\n             <Initiatives />\r\n             <Footer />\r\n             <BackToTop />\r\n         </>\r\n"
+                },
+                {
+                    "date": 1733811287613,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,17 @@\n+import Navbar from \"../components/Navbar\";\r\n+import Footer from '../components/Footer';\r\n+import Initiatives from '../components/Initiatives';\r\n+import BackToTop from '../components/BackToTop';\r\n+import PageHeader from \"../components/PageHeader\";\r\n+\r\n+export default function Gallery() {\r\n+    return (\r\n+        <>\r\n+            <Navbar />\r\n+            <PageHeader title=\"All Pictures\" path=\"/gallery\" name=\"Gallery\" />\r\n+            <Initiatives />\r\n+            <Footer />\r\n+            <BackToTop />\r\n+        </>\r\n+    );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1733822296743,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,17 @@\n+import Navbar from \"../components/Navbar\";\r\n+import Footer from '../components/Footer';\r\n+import Initiatives from '../components/Initiatives';\r\n+import BackToTop from '../components/BackToTop';\r\n+import PageHeader from \"../components/PageHeader\";\r\n+\r\n+export default function Gallery() {\r\n+    return (\r\n+        <>  \r\n+            <Navbar />\r\n+            <PageHeader title=\"All Pictures\" path=\"/gallery\" name=\"Gallery\" />\r\n+            <Initiatives />\r\n+            <Footer />\r\n+            <BackToTop />\r\n+        </>\r\n+    );\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1733824043502,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import Navbar from \"../components/Navbar\";\r\n import Footer from '../components/Footer';\r\n-import Initiatives from '../components/Initiatives';\r\n+// import Initiatives from '../components/Initiatives';\r\n import BackToTop from '../components/BackToTop';\r\n import PageHeader from \"../components/PageHeader\";\r\n \r\n export default function Gallery() {\r\n@@ -13,39 +13,5 @@\n             <Footer />\r\n             <BackToTop />\r\n         </>\r\n     );\r\n-}\n-import Navbar from \"../components/Navbar\";\r\n-import Footer from '../components/Footer';\r\n-import Initiatives from '../components/Initiatives';\r\n-import BackToTop from '../components/BackToTop';\r\n-import PageHeader from \"../components/PageHeader\";\r\n-\r\n-export default function Gallery() {\r\n-    return (\r\n-        <>\r\n-            <Navbar />\r\n-            <PageHeader title=\"All Pictures\" path=\"/gallery\" name=\"Gallery\" />\r\n-            <Initiatives />\r\n-            <Footer />\r\n-            <BackToTop />\r\n-        </>\r\n-    );\r\n-}\n-import Navbar from \"../components/Navbar\";\r\n-import Footer from '../components/Footer';\r\n-import Initiatives from '../components/Initiatives';\r\n-import BackToTop from '../components/BackToTop';\r\n-import PageHeader from \"../components/PageHeader\";\r\n-\r\n-export default function Gallery() {\r\n-    return (\r\n-        <>\r\n-            <Navbar />\r\n-            <PageHeader title=\"All Pictures\" path=\"/gallery\" name=\"Gallery\" />\r\n-            <Initiatives />\r\n-            <Footer />\r\n-            <BackToTop />\r\n-        </>\r\n-    );\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1733826218032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,15 +2,16 @@\n import Footer from '../components/Footer';\r\n // import Initiatives from '../components/Initiatives';\r\n import BackToTop from '../components/BackToTop';\r\n import PageHeader from \"../components/PageHeader\";\r\n-\r\n+import GalleryDetail from \"../components/GalleryDetail\";\r\n export default function Gallery() {\r\n     return (\r\n         <>  \r\n             <Navbar />\r\n             <PageHeader title=\"All Pictures\" path=\"/gallery\" name=\"Gallery\" />\r\n-            <Initiatives />\r\n+            {/* <Initiatives /> */}\r\n+            <GalleryDetail />\r\n             <Footer />\r\n             <BackToTop />\r\n         </>\r\n     );\r\n"
+                }
+            ],
+            "date": 1733810568004,
+            "name": "Commit-0",
+            "content": "import Navbar from \"../components/Navbar\";\r\nimport Footer from '../components/Footer';\r\nimport Initiatives from '../components/Initiatives';\r\nimport BackToTop from '../components/BackToTop';\r\nimport PageHeader from \"../components/PageHeader\";\r\n\r\nexport default function Events() {\r\n    return (\r\n        <>\r\n            <Navbar />\r\n            <PageHeader title=\"Flagship Events\" path=\"/event\" name=\"Events\" />\r\n            <Initiatives />\r\n            <Footer />\r\n            <BackToTop />\r\n        </>\r\n    );\r\n}"
+        }
+    ]
+}

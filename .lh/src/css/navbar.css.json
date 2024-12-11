@@ -1,0 +1,54 @@
+{
+    "sourceFile": "src/css/navbar.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 9,
+            "patches": [
+                {
+                    "date": 1733809630191,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1733809639577,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -104,9 +104,9 @@\n }\r\n \r\n .navbar .navbar-brand {\r\n     margin: 0;\r\n-    /* color: #ffffff; */\r\n+    color: #ffffff;\r\n     font-size: 45px;\r\n     line-height: 0px;\r\n     font-weight: 700;\r\n     letter-spacing: 5px;\r\n"
+                },
+                {
+                    "date": 1733809644713,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -122,9 +122,9 @@\n .navbar-dark .navbar-nav .nav-link:focus,\r\n .navbar-dark .navbar-nav .nav-link:hover,\r\n .navbar-dark .navbar-nav .nav-link.active {\r\n     padding: 10px 15px 8px 15px;\r\n-    color: #ffffff;\r\n+    /* color: #ffffff; */\r\n }\r\n \r\n .navbar-dark .navbar-nav .nav-link:hover,\r\n .navbar-dark .navbar-nav .nav-link.active {\r\n"
+                },
+                {
+                    "date": 1733809657173,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -122,9 +122,9 @@\n .navbar-dark .navbar-nav .nav-link:focus,\r\n .navbar-dark .navbar-nav .nav-link:hover,\r\n .navbar-dark .navbar-nav .nav-link.active {\r\n     padding: 10px 15px 8px 15px;\r\n-    /* color: #ffffff; */\r\n+    color: #ffffff;\r\n }\r\n \r\n .navbar-dark .navbar-nav .nav-link:hover,\r\n .navbar-dark .navbar-nav .nav-link.active {\r\n@@ -137,9 +137,9 @@\n     border: 1px solid gray;\r\n     border-radius: 12px;\r\n     background: rgba(0, 0, 0, 0.5);\r\n     a{\r\n-        color: white;\r\n+        /* color: white; */\r\n         &:hover{\r\n             color: #FDBE33;\r\n             background-color: rgba(0, 0, 0, 0.7);\r\n         }\r\n"
+                },
+                {
+                    "date": 1733809679548,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -133,13 +133,13 @@\n }\r\n \r\n .navbar .dropdown-menu {\r\n     margin-top: 0;\r\n-    border: 1px solid gray;\r\n+    /* border: 1px solid gray; */\r\n     border-radius: 12px;\r\n     background: rgba(0, 0, 0, 0.5);\r\n     a{\r\n-        /* color: white; */\r\n+        color: white;\r\n         &:hover{\r\n             color: #FDBE33;\r\n             background-color: rgba(0, 0, 0, 0.7);\r\n         }\r\n"
+                },
+                {
+                    "date": 1733809701054,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -104,9 +104,9 @@\n }\r\n \r\n .navbar .navbar-brand {\r\n     margin: 0;\r\n-    color: #ffffff;\r\n+    /* color: #ffffff; */\r\n     font-size: 45px;\r\n     line-height: 0px;\r\n     font-weight: 700;\r\n     letter-spacing: 5px;\r\n@@ -133,9 +133,9 @@\n }\r\n \r\n .navbar .dropdown-menu {\r\n     margin-top: 0;\r\n-    /* border: 1px solid gray; */\r\n+    border: 1px solid gray;\r\n     border-radius: 12px;\r\n     background: rgba(0, 0, 0, 0.5);\r\n     a{\r\n         color: white;\r\n"
+                },
+                {
+                    "date": 1733809706149,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -104,9 +104,9 @@\n }\r\n \r\n .navbar .navbar-brand {\r\n     margin: 0;\r\n-    /* color: #ffffff; */\r\n+    color: #ffffff;\r\n     font-size: 45px;\r\n     line-height: 0px;\r\n     font-weight: 700;\r\n     letter-spacing: 5px;\r\n"
+                },
+                {
+                    "date": 1733809727497,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -133,9 +133,9 @@\n }\r\n \r\n .navbar .dropdown-menu {\r\n     margin-top: 0;\r\n-    border: 1px solid gray;\r\n+    /* border: 1px solid gray; */\r\n     border-radius: 12px;\r\n     background: rgba(0, 0, 0, 0.5);\r\n     a{\r\n         color: white;\r\n"
+                },
+                {
+                    "date": 1733809769169,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -133,9 +133,9 @@\n }\r\n \r\n .navbar .dropdown-menu {\r\n     margin-top: 0;\r\n-    /* border: 1px solid gray; */\r\n+    border: 1px solid gray;\r\n     border-radius: 12px;\r\n     background: rgba(0, 0, 0, 0.5);\r\n     a{\r\n         color: white;\r\n"
+                },
+                {
+                    "date": 1733809781864,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -152,9 +152,9 @@\n         width: 100%;\r\n         top: 45px;\r\n         padding: 20px 60px;\r\n         background: transparent !important;\r\n-        border-bottom: 1px solid rgba(255, 255, 255, .3);\r\n+        /* border-bottom: 1px solid rgba(255, 255, 255, .3); */\r\n         z-index: 9;\r\n     }\r\n     \r\n     .navbar.nav-sticky {\r\n"
+                }
+            ],
+            "date": 1733809630191,
+            "name": "Commit-0",
+            "content": "/**********************************/\r\n/********** Top Bar CSS ***********/\r\n/**********************************/\r\n.top-bar {\r\n    position: absolute;\r\n    height: 45px;\r\n    width: 100%;\r\n    top: 0;\r\n    left: 0;\r\n    z-index: 3;\r\n    border-bottom: 1px solid rgba(255, 255, 255, .3);\r\n    background-color: rgba(0, 0, 0, 0.2);\r\n}\r\n\r\n.top-bar .top-bar-left {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: flex-start;\r\n}\r\n\r\n.top-bar .top-bar-right {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: space-evenly;\r\n}\r\n\r\n.top-bar .text {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    flex-direction: row;\r\n    height: 45px;\r\n    padding: 0 10px;\r\n    text-align: center;\r\n    border-left: 1px solid rgba(255, 255, 255, .3);\r\n}\r\n\r\n.top-bar .text:last-child {\r\n    border-right: 1px solid rgba(255, 255, 255, .3);\r\n}\r\n\r\n.top-bar .text i {\r\n    font-size: 16px;\r\n    color: #FDBE33;\r\n    margin-right: 5px;\r\n}\r\n\r\n.top-bar .text p {\r\n    color: #ffffff;\r\n    font-size: 16px;\r\n    font-weight: 500;\r\n    margin: 0;\r\n}\r\n\r\n.top-bar .social {\r\n    display: flex;\r\n    height: 45px;\r\n    font-size: 0;\r\n    justify-content: flex-end;\r\n}\r\n\r\n.top-bar .social a {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    width: 45px;\r\n    height: 100%;\r\n    font-size: 16px;\r\n    color: #FDBE33;\r\n    border-right: 1px solid rgba(255, 255, 255, .3);\r\n}\r\n\r\n.top-bar .social a:first-child {\r\n    border-left: 1px solid rgba(255, 255, 255, .3);\r\n}\r\n\r\n.top-bar .social a:hover {\r\n    color: #ffffff;\r\n    background: #FDBE33;\r\n}\r\n\r\n@media (min-width: 992px) {\r\n    .top-bar {\r\n        padding: 0 60px;\r\n    }\r\n}\r\n\r\n\r\n/**********************************/\r\n/*********** Nav Bar CSS **********/\r\n/**********************************/\r\n.navbar {\r\n    position: relative;\r\n    transition: .5s;\r\n    z-index: 999;\r\n}\r\n\r\n.navbar.nav-sticky {\r\n    position: fixed;\r\n    top: 0;\r\n    width: 100%;\r\n    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.3);\r\n    transition: .5s;\r\n}\r\n\r\n.navbar .navbar-brand {\r\n    margin: 0;\r\n    /* color: #ffffff; */\r\n    font-size: 45px;\r\n    line-height: 0px;\r\n    font-weight: 700;\r\n    letter-spacing: 5px;\r\n    text-transform: uppercase;\r\n}\r\n\r\n.navbar .navbar-brand img {\r\n    max-width: 100%;\r\n    max-height: 40px;\r\n}\r\n\r\n.navbar-dark .navbar-nav .nav-link,\r\n.navbar-dark .navbar-nav .nav-link:focus,\r\n.navbar-dark .navbar-nav .nav-link:hover,\r\n.navbar-dark .navbar-nav .nav-link.active {\r\n    padding: 10px 15px 8px 15px;\r\n    color: #ffffff;\r\n}\r\n\r\n.navbar-dark .navbar-nav .nav-link:hover,\r\n.navbar-dark .navbar-nav .nav-link.active {\r\n    color: #FDBE33;\r\n    transition: none;\r\n}\r\n\r\n.navbar .dropdown-menu {\r\n    margin-top: 0;\r\n    border: 1px solid gray;\r\n    border-radius: 12px;\r\n    background: rgba(0, 0, 0, 0.5);\r\n    a{\r\n        color: white;\r\n        &:hover{\r\n            color: #FDBE33;\r\n            background-color: rgba(0, 0, 0, 0.7);\r\n        }\r\n    }\r\n}\r\n\r\n@media (min-width: 992px) {\r\n    .navbar {\r\n        position: absolute;\r\n        width: 100%;\r\n        top: 45px;\r\n        padding: 20px 60px;\r\n        background: transparent !important;\r\n        border-bottom: 1px solid rgba(255, 255, 255, .3);\r\n        z-index: 9;\r\n    }\r\n    \r\n    .navbar.nav-sticky {\r\n        padding: 10px 60px;\r\n        background: #20212B !important;\r\n        border-bottom: none;\r\n    }\r\n    \r\n    .page .navbar {\r\n        background: #20212B !important;\r\n    }\r\n    \r\n    .navbar a.nav-link {\r\n        padding: 8px 15px;\r\n        font-size: 16px;\r\n        letter-spacing: 1px;\r\n    }\r\n}\r\n\r\n@media (max-width: 991.98px) {   \r\n    .navbar .navbar-brand {\r\n        font-size: 37px;\r\n    }\r\n    .navbar {\r\n        padding: 15px;\r\n        background: #20212B !important;\r\n    }\r\n    \r\n    .navbar a.nav-link {\r\n        padding: 5px;\r\n    }\r\n    \r\n    .navbar .dropdown-menu {\r\n        box-shadow: none;\r\n    }\r\n}"
+        }
+    ]
+}
